@@ -1,0 +1,58 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+    text-align: center;
+    background: url('../assets/12725677.jpg')   center  ;
+
+  }
+  
+  /* Centered Card Box */
+  .content-box {
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    transition: transform 0.3s;
+  }
+  
+  .content-box:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Title */
+  .home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Description */
+  .home-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Play Button */
+  .play-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    color: white;
+    background: #ff4b2b;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition:  0.3s, transform 0.2s;
+  }
+  
+  .play-button:hover {
+    background: #ff1b1b;
+    transform: scale(1.1);
+  }
+

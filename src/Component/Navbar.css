@@ -1,0 +1,41 @@
+.navbar{
+  width: 97%;
+  background: #1b1372;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+
+.navbar-link {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+
+  .symbol{
+    font-size: 40px;
+    color: white;
+  }
+
+
